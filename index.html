@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <div class="search-cont">
+        <input class='search' type="text" placeholder="Search...">
+        <p class="error">Oops! Something went wrong!</p>
+        
+        <div class="autocomplete">
+            <div class="results-list"></div>
+        </div>
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="weather-container">
+        <h3 class="city"></h3>
+        <div class="description">
+            <img class="weather-icon">
+            <span class="weather-descr"></span>
+        </div>
+        <p class="temperature"></p>
+        <p class="humidity"></p>
+    </div>
+</body>
+</html>
